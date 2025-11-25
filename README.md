@@ -1,18 +1,17 @@
 &nbsp;
 <img src="/assets/ebcont-base_digitalisnow-tuerkis.png" alt="ebcont logo" width="350px">
 
-# GitHub Unleashed: Hands-on and Best Practices
+# GitHub Flow, Actions & Tools: Hands-On Workshop
 
-This repository contains a sample application used for the Workshop "GitHub Unleashed: Hands-on and Best Practices".
+This repository contains a sample application used for the Training "GitHub Flow, Actions & Tools".
 It's purpose is to demonstrate the EBCONT GitHub experience.
 
 - Organization has a Custom Property "code-rulesets" with values:
   - "branch-default", "branch-review", "branch-conventional-commits" and "tag-default"
 - Branch & tag rulesets are activated on the repository through the chosen custom property value(s)
 - Tools: 
-  - Commitlint&emsp;&emsp;&emsp;&emsp;[Checks commit messages](<https://www.conventionalcommits.org/en/v1.0.0/>)
   - Release Please&emsp;&emsp;[Release & Changelog automation](<https://github.com/googleapis/release-please>)
-  - Dependabot&nbsp;&emsp;&emsp;&emsp;[Dependency management](<https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide>)
+  - Dependabot&emsp;&emsp;&emsp;[Dependency management](<https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide>)
 
 ## Contact persons
 
@@ -37,12 +36,10 @@ A simple Spring Boot application displaying an index and a greetings page:
 ## GitHub workflows are located under .github/workflows/
 - ci.yml | build, test & publish  
 - ci-integration-tests.yml
-- commitlint.yml
 - release-please.yml
 
 ## GitHub Tool configuration:
 - .github/dependabot.yml
-- commitlint.config.js
 - .release-please-manifest.json
 - release-please-config.json
 - CODEOWNERS
